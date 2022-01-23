@@ -9,7 +9,7 @@ set_chat_lang: "A ṭha e, tun aṭang chuan {} hi hman ani tawh ang!"
 
 # PM Text
 pm_start_text: |
-  *{} Chibai le, [❤️](https://telegra.ph//file/19cf584fba04f53f84812.jpg)
+  *Chibai le {},* [❤️](https://telegra.ph//file/19cf584fba04f53f84812.jpg)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
   × *Server Uptime :* `{}`
