@@ -14,7 +14,7 @@
    "addons": [
           {
          "options": {
-            "version": "12"
+            "version": "13"
          },
          "plan": "heroku-postgresql"
       }
@@ -53,30 +53,27 @@
          "required": true,
          "value": "945137470"
      },
-
-      "STRING_SESSION": {
+     "STRING_SESSION": {
          "description": "Fill with telethon string session.",
          "required": true,
          "value": "" 
-      },
-      "HEROKU_API_KEY": {
+     },
+     "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
         "value": ""
-      },
-      "HEROKU_APP_NAME": {
+     },
+     "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
         "required": false
-      },
-      "BOT_USERNAME": {
+     },
+     "BOT_USERNAME": {
          "description": "username of your bot without the @",
          "value": "Bawihteixbot"
       },
-
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
          "value": ""
       },
-
       "OWNER_USERNAME": {
          "description": "Your username without the @",
          "value": "saint_foire"
@@ -94,12 +91,12 @@
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
          "required": false
-     },
-     "IBM_WATSON_CRED_PASSWORD": {
+      },
+      "IBM_WATSON_CRED_PASSWORD": {
         "description": "This is required for the speech to text module. Get your PASSWORD from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
         "required": false
-     },
-     "EVENT_LOGS": {
+      },
+      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
          "value": "-1001237968047"
@@ -119,23 +116,20 @@
          "required": true,
          "value": "-xyz"
      }, 
-
-      "OPENWEATHERMAP_ID": {
+     "OPENWEATHERMAP_ID": {
         "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
         "value": "",
         "required": false
       },
-
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
          "value": ""
-     },
-        "ARQ_API": {
+      },
+      "ARQ_API": {
             "description": "Get this from @ARQRobot.",
             "required": true
-        },
-
+      },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
