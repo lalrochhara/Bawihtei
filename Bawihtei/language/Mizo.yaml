@@ -4,24 +4,24 @@ language: "Mizo 🇮🇳"
 authors: "@Nickylrca"
 
 # languages
-curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
-set_chat_lang: "Great, using {} Language it is from now on!"
+curr_chat_lang: "Hnam ṭawng i hmanlai mek chu { ani e}, a hnuai a button aṭang khuan i hman duh ber thlang rawh :)"
+set_chat_lang: "A ṭha e, tun aṭang chuan {} hi hman ani tawh ang!"
 
 # PM Text
 pm_start_text: |
-  *Hey Darling, {} ❤️*https://telegra.ph//file/19cf584fba04f53f84812.jpg)
+  *{} Chibai le, [❤️](https://telegra.ph//file/19cf584fba04f53f84812.jpg)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
   × *Server Uptime :* `{}`
   × `{}` *users, across* `{}` *chats.*
   ┗━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┛
 
-  ✪ Hit /help to see my available commands.
+  ✪ He /help tih hi hmet la command hman theih te i en dawn nia.
    
 group_start_text: |
-  *👋🏻 Hi Darling, I'm Bawihtei!*
+  *👋🏻 Chibai duhtak, Kei hi Bawihtei ka ni e!*
   
-  *Started active since :* `{}`
+  *Ka active tan na chu :* `{}`
 
 pm_about_text: |
   ✺ Hey Darling I'm *Bawihtei*, a powerful group management bot built to help you manage your group easily. ✺
