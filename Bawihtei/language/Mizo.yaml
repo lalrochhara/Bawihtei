@@ -4,7 +4,7 @@ language: "Mizo 🇮🇳"
 authors: "@Nickylrca"
 
 # languages
-curr_chat_lang: "Hnam ṭawng i hmanlai mek chu { ani e}, a hnuai a button aṭang khuan i hman duh ber thlang rawh :)"
+curr_chat_lang: "Hnam ṭawng i hmanlai mek chu {} ani e, a hnuai a button aṭang khuan i hman duh ber thlang rawh :)"
 set_chat_lang: "A ṭha e, tun aṭang chuan {} hi hman ani tawh ang!"
 
 # PM Text
@@ -59,7 +59,7 @@ pm_about_support_text: |
 pm_about_credit_text: |
   *✺ Credis for Bawihtei ✺*
 
-  Here Developers Making And Give Inspiration For Made The Bawihtei Robot
+  Here Developers Making And Give Inspiration For Made The Bawihtei
 pm_help_text: |
   *✺ Click on the button bellow to get description about specifics command. ✺*
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
