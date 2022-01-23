@@ -25,7 +25,7 @@ Pillow
 CurrencyConverter
 google_images_download
 google-api-python-client
-googletrans==4.0.0-rc1
+googletrans
 google-trans-new==1.1.9
 jikanpy
 speedtest-cli
