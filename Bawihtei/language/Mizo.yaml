@@ -76,20 +76,20 @@ pm_settings_groups_text: "*{}* has the following settings for the *{}* module:\n
 pm_settings_groupss_text: |
     Hi there! There are quite a few settings for {} - go ahead and pick what you're interested in.
 # Group Settings Text
-group_settings_text: "Click here to get this chat's settings, as well as yours."
+group_settings_text: "Group siamṭhat na i hnuh duh chuan tah hian hmet rawh, nangma siam tawh sa en i duh pawn."
 # Group Settings Button
-group_settings_button: "Settings"
+group_settings_button: "Siamṭhat na"
 
 # PM Button
-add_bot_to_group_button: "Add Me To Your Group"
+add_bot_to_group_button: "I Group ah min add rawh"
 support_chat_link_button: "Supports"
 updates_channel_link_button: "Updates"
 notes_button: "Notes"
-source_button: "Source Code"
-help_button: "Get Help"
-back_button: "Go back"
-about_button: "About Bawihtei "
-inline_button: "Try ininline"
+source_button: "Inkawm na"
+help_button: "Ṭanpui na"
+back_button: "Lêt leh"
+about_button: "Bawihtei chanchin "
+inline_button: "Ininline hman na"
 
 # MODULES
 admin_help: |
@@ -664,7 +664,7 @@ search_help: |
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
     ❂ Bawihtei <query>*:* Bawihtei answers the query
 
-    💡 Ex : `Bawihtei where is Japan?`
+    💡 Ex : `Bawihtei khawi ah nge Japan hi a awm?`
 stickers_help: |
     ──「 Stickers 」──
 
