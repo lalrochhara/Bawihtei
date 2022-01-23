@@ -390,7 +390,7 @@ def Bawihtei_about_callback(update, context):
                         InlineKeyboardButton(text="Credits", callback_data="Bawihtei_credit"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://github.com/shiinobu/Bawihtei"),
+                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://t.me/mzbotstalk"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="Bawihtei_back"),
