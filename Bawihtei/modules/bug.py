@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Shiinobu Project
+# Copyright (c) 2022 Nicky Lalrochhara Project
 
 from datetime import datetime
 
