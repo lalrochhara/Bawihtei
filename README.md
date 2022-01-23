@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<a href="https://t.me/Bawihteibot"> <img src="https://github.com/lalrochhara/Bawihtei/blob/Bawihtei/Bawihtei/resources/Bawihtei-robot.svg" alt="Bawihtei on Telegram" /> </a></br>
+<a href="https://t.me/Bawihteibot"> <img src="https://github.com/lalrochhara/Bawihtei/blob/master/Bawihtei/resources/Bawihtei_robot.svg" alt="Bawihtei on Telegram" /> </a></br>
 <a href="https://github.com/lalrochhara/Bawihtei/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://makeapullrequest.com"> <img src="https://img.shields.io/badge/PRs-Welcome-yellow?style=for-the-badge" alt="PRs" /></a></br>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Made%20With-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
