@@ -184,7 +184,7 @@ def start(update: Update, context: CallbackContext):
                     
                 send_help(
                     update.effective_chat.id,
-                    HELPABLE[mod].mod_name + help_text,
+                    HELPABLE[mod].__mod_name__ + help_text,
                     InlineKeyboardMarkup(
                         [
                             [
