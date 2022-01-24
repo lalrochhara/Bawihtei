@@ -170,7 +170,7 @@ def start(update: Update, context: CallbackContext):
                         "pm_help_text"
                     ),
                 )
-            def start(update: Update, context: CallbackContext):
+            elif args[0].lower().startswith("ghelp_"):
                 mod = args[0].lower().split("_", 1)[1]
                 
                 help_list = HELPABLE[mod].helps(update.effective_chat.id)
