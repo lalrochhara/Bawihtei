@@ -65,10 +65,10 @@ pm_help_text: |
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 
 # Group Help Text
-group_help_text: "Contact me in PM to get the list of possible commands."
-group_help_modules_text: "Contact me in PM to get help of *{}*"
+group_help_text: "Command hman theih te leh a sawifiahna te i hriat duh chuan PM lam ah min be rawh."
+group_help_modules_text: "*{}* Chungchang i hriat chian duh chuan PM ah min rawn be rawh."
 # Group Help Button
-group_help_button: "Help"
+group_help_button: "Ṭanpuina"
 # PM Settings
 pm_settings_personal_text: "These are your current settings: "
 pm_settings_group_text: "Which module would you like to check {}'s settings for?"
@@ -76,9 +76,9 @@ pm_settings_groups_text: "*{}* has the following settings for the *{}* module:\n
 pm_settings_groupss_text: |
     Hi there! There are quite a few settings for {} - go ahead and pick what you're interested in.
 # Group Settings Text
-group_settings_text: "Group siamṭhat na i hnuh duh chuan tah hian hmet rawh, nangma siam tawh sa en i duh pawn."
+group_settings_text: "Group Settings i hnuh duh chuan tah hian hmet rawh, nangma siam tawh sa en i duh pawn."
 # Group Settings Button
-group_settings_button: "Siamṭhat na"
+group_settings_button: "Settings"
 
 # PM Button
 add_bot_to_group_button: "I Group ah min add rawh"
