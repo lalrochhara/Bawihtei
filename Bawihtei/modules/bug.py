@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Nicky Lalrochhara Project
+# Copyright (c) 2022 Mizo Bot Project
 
 from datetime import datetime
 
@@ -47,7 +47,7 @@ async def bug(_, msg: Message):
     datetimes_fmt = "%d-%m-%Y"
     datetimes = datetime.utcnow().strftime(datetimes_fmt)
 
-    thumb = "https://telegra.ph/file/bd218d4af1c69c586ebb0.jpg"
+    thumb = "https://telegra.ph/file/394244f7a77938b69e736.jpg"
     
     bug_report = f"""
 **#BUG : ** **@{owner_usn}**
@@ -97,18 +97,18 @@ async def bug(_, msg: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                "➡ View Bug", url=f"{msg.link}")
+                                "View Bug", url=f"{msg.link}")
                         ],
                         [
                             InlineKeyboardButton(
-                                "❌ Close", callback_data="close_send_photo")
+                                "Close", callback_data="close_send_photo")
                         ]
                     ]
                 )
             )
         else:
             await msg.reply_text(
-                f"❎ <b>No bug to Report!</b>",
+                f"<b>No bug to Report!</b>",
             )
         
 
