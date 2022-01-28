@@ -36,9 +36,9 @@ pm_about_text: |
   _Bawihtei hi GNU General Public License v3.0 hnuai a register ani a_
   Bawihtei chungchang ah command hman theih langsar zual i hriat duh chuan, a hnuaia button khu hmet rawh.
 pm_about_admin_text: |
-  *✺ Let's make your group bit effective now ✺*
+  *✺ A hma ai a tha leh zual in i group hi siam ang aw ✺*
 
-  Congragulations, Bawihtei now ready to manage your group.
+  I ti tha e, Bawihtei hi i group enkawl tur in a in peih e.
 
   *Admin Tools*
   Basic Admin tools help you to protect and powerup your group.
@@ -59,10 +59,10 @@ pm_about_support_text: |
 pm_about_credit_text: |
   *✺ Credis for Bawihtei ✺*
 
-  Here Developers Making And Give Inspiration For Made The Bawihtei
+  Heng a hnuaia mi te hi Bawihtei siam na kawng a min fin chhuah tu te leh nasa taka min pui tu te an ni
 pm_help_text: |
-  *✺ Click on the button bellow to get description about specifics command. ✺*
-pm_help_module_text: "Here is the help for the *{}* module :\n\n"
+  *✺ A hnuaia button khu hmet la command hman dan leh hrilhfiahna te i hriat duh chuan. ✺*
+pm_help_module_text: "A hnuaia mi khu he *{}* module hrilhfiahna na leh a hman dan te an ni :\n\n"
 
 # Group Help Text
 group_help_text: "Command hman theih te leh a sawifiahna te i hriat duh chuan PM lam ah min be rawh."
@@ -788,14 +788,14 @@ set_title_none: "Setting blank title doesn't do anything!"
 set_title_len: "The title length is longer than 16 characters.\nTruncating it to 16 characters."
 set_title_error: "Either they aren't promoted by me or you set a title text that is impossible to set."
 set_title_success: "Sucessfully set title for <code>{}</code> to <code>{}</code>"
-pin_none: "Reply a message to pin it!"
+pin_none: "Message pin tur chu reply rawh!"
 pin_success: "I have pinned a message."
 unpin_creator: "You don't have the necessary rights to do that!"
-unpin_success: "Unpinned <a href='{}'>this message</a>."
+unpin_success: "He message <a href='{}'>unpinned ani e</a>."
 unpin_last_msg: "Unpinned the last pinned message."
 unpin_error: "I can't see pinned message, Maybe already unpined, or pin Message to old 🙂"
-pinned: '🔽 Pinned on {}.'
-pinned_none: "There is no pinned message in <b>{}!</b>"
+pinned: '{} ah hian pin ani.'
+pinned_none: "He group <b>{}!</b> ah hian eng pin message mah a awm lo"
 invite_error1: "I don't have access to the invite link, try changing my permissions!"
 invite_error2: "I can only give you invite links for supergroups and channels, sorry!"
 list_admin_error: "This command only works in Groups."
@@ -807,7 +807,7 @@ demote_callback_answer: "Demoted!"
 demote_callback_error: "This user is not promoted or has left the group!" 
 # Admin.py Variabel Button
 demote_button: "Demote"
-pin_button: "👉 Go to message"
+pin_button: "Message en rawh"
 
 # Afk.py Variabel
 reason_len: "\nI afk chhan i ziak tur in character 100 thleng i hmang thei."
