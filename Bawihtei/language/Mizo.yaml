@@ -789,7 +789,7 @@ set_title_len: "The title length is longer than 16 characters.\nTruncating it to
 set_title_error: "Either they aren't promoted by me or you set a title text that is impossible to set."
 set_title_success: "Sucessfully set title for <code>{}</code> to <code>{}</code>"
 pin_none: "Message pin tur chu reply rawh!"
-pin_success: "I have pinned a message."
+pin_succesMessage: "Message chu ka pin tawh e."
 unpin_creator: "You don't have the necessary rights to do that!"
 unpin_success: "He message <a href='{}'>unpinned ani e</a>."
 unpin_last_msg: "Unpinned the last pinned message."
