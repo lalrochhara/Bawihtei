@@ -1,5 +1,5 @@
 <h2 align="center">
-    ──「 BAWIHTEI IS A MODULAR BOT WITH ANIME THEME 」──
+    BAWIHTEI IS A MODULAR TELEGRAM GROUP MANAGEMENT BOT WITH ANIME THEME
 </h2>
 
 <p align="center">
@@ -23,14 +23,14 @@
 </p>
 
 <h2 align="center">
-    ──「 DEPLOY ON HEROKU 」──
+    DEPLOY TO HEROKU
 </h2>
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/lalrochhara/Bawihtei"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 <h2 align="center">
-    ──「 SUPPORT 」──
+     SUPPORT
 </h2>
 
 <p align="center">
@@ -40,7 +40,7 @@
 </p>
 
 <h2 align="center">
-    ──「 CREDIT 」──
+    CREDIT
 </h2>
 
 <p align="center">
@@ -51,12 +51,19 @@
 </p>
 
 ```
-This Bot is Created by Mizo Bot Project, If your kanging this without fork at least give a credit to get a smile of my hard work. 
+This Bot is Created by Mizo Bot Project,
+If your kanging this without fork at least give a credit to get a smile of my hard work. 
 - Bawihtei
 - EmikoRobot
-- YoneRobot
+- Miss Sangtei
 - SaitamaRobot 
 - TheRealPhoenixBot
 - DaisyX 
 - WilliamButcherBot
 ```
+
+## Contribute to Bawihtei?
+
+• Any contribution is being accepted in Bawihtei's source code.
+  Every contributors are warmly welcome.
+[Contact Us](https://t.me/BawihteiSupports).
