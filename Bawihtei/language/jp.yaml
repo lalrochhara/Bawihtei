@@ -10,7 +10,7 @@ set_chat_lang: "素晴らしい、使用 {} これからの言語!"
 # PM Text
 pm_start_text: |
   *ちょっとダーリン, {} ❤️*
-  ✪ 私はアニメをテーマにした管理ロボットです [✨](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
+  ✪ 私はアニメをテーマにした管理ボットです [✨](https://telegra.ph//file/19cf584fba04f53f84812.jpg)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
   × *サーバーの稼働時間 :* `{}`
@@ -20,12 +20,12 @@ pm_start_text: |
   ✪ 打つ /help 使用可能なコマンドを表示するには.
    
 group_start_text: |
-  *👋🏻 こんにちはダーリン、私はシエスタロボットです!*
+  *👋🏻 こんにちはダーリン、私はバウィーテイです！*
   
   *以来アクティブになりました :* `{}`
 
 pm_about_text: |
-  ✺ こんにちはダーリン私は* ロボットシエスタ *です。これは、グループを簡単に管理できるように構築された強力なグループ管理ボットです。 ✺
+  ✺ こんにちはダーリン私は* Bawihtei *です。これは、グループの管理を容易にするために構築された強力なグループ管理ボットです。 ✺
 
   ✪ ユーザーを制限できます。
   ✪ カスタマイズ可能なウェルカムメッセージでユーザーに挨拶したり、グループのルールを設定したりすることもできます。
@@ -90,7 +90,7 @@ add_bot_to_group_button: "♕ 私をあなたのグループに追加してく�
 support_chat_link_button: "サポート"
 updates_channel_link_button: "アップデート"
 notes_button: "ノート"
-source_button: "ソースコード"
+source_button: "討論"
 help_button: "助けを得ます"
 back_button: "戻る"
 about_button: "シエスタロボットについて"
@@ -590,7 +590,7 @@ info_and_afk_help: |
       --brb <reason>：afkコマンドと同じですが、コマンドではありません。
       
     *その健康は何ですか？*
-    [HPシステムの説明]（https://t.me/KennedyProject/44）をご覧ください。
+    [HPシステムの説明]（https://t.me/BawihteiUpdates/41）をご覧ください。
 
 locks_help: |
     ──「ロック」──
@@ -848,22 +848,22 @@ demote_callback_success: "Admin {} Demoted {}!"
 demote_callback_answer: "Demoted!"
 demote_callback_error: "This user is not promoted or has left the group!" 
 # Admin.py Variabel Button
-demote_button: "Demote"
-pin_button: "👉 Go to message"
+demote_button: "降格"
+pin_button: "メッセージに移動"
 
 # Afk.py Variabel
-reason_len: "\nYour afk reason was shortened to 100 characters."
-afk: "{} is now away! {}"
-afk_array1: "{} is here!"
-afk_array2: "{} is back!"
-afk_array3: "{} is now in the chat!"
-afk_array4: "{} is awake!"
-afk_array5: "{} is back online!"
-afk_array6: "{} is finally here!"
-afk_array7: "Welcome back! {}"
-afk_array8: "Where is {}?\nIn the chat!"
-afk_check: "{} is afk"
-afk_check_reason: "{} is afk.\nReason: <code>{}</code>"
+reason_len: "\nあなたのafkの理由は100文字に短縮されました."
+afk: "{} はもう離れています! {}"
+afk_array1: "{} ここにある!"
+afk_array2: "{} が帰ってきた!"
+afk_array3: "{} はチャット中です!"
+afk_array4: "{} は起きています!"
+afk_array5: "{} がオンラインに戻りました!"
+afk_array6: "{} がついに登場!"
+afk_array7: "お帰りなさい！ {}"
+afk_array8: "{} はどこにありますか?\nチャットで!"
+afk_check: "{} afkです"
+afk_check_reason: "{} afkです.\n理由: <code>{}</code>"
 
 # Antichannel.py Variabel
 active_antichannel: "Enabled antichannel in {}"
