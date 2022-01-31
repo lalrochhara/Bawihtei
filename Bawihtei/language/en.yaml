@@ -85,7 +85,7 @@ add_bot_to_group_button: "Add Me To Your Group"
 support_chat_link_button: "Supports"
 updates_channel_link_button: "Updates"
 notes_button: "Notes"
-source_button: "Source Code"
+source_button: "Discussion"
 help_button: "Get Help"
 back_button: "Go back"
 about_button: "About Bawihtei "
@@ -558,7 +558,7 @@ info_and_afk_help: |
       - brb <reason>: Same as the afk command, but not a command. 
       
     *What is that health thingy?*
-    Come and see [HP System explained](https://t.me/KennedyProject/44)
+    Come and see [HP System explained](https://t.me/BawihteiUpdates/41)
 locks_help: |
     ──「 Locks 」──
 
