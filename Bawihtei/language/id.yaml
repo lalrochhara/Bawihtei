@@ -10,7 +10,7 @@ set_chat_lang: "Bagus, menggunakan Bahasa {} mulai sekarang!"
 # PM Text
 pm_start_text: |
   *Hai sayang, {} ❤️*
-  ✪ Saya adalah robot manajemen tema anime [✨](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
+  ✪ Saya adalah manajemen tema anime [✨](https://telegra.ph//file/19cf584fba04f53f84812.jpg)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
   × *Waktu Operasi Server :* `{}`
@@ -20,12 +20,12 @@ pm_start_text: |
   ✪ Tekan /help untuk melihat perintah saya yang tersedia.
    
 group_start_text: |
-  *👋🏻 Hai Sayang, aku Robot Bawihtei!* 
+  *👋🏻 Hai Sayang, aku Bawihtei!* 
   
   *Mulai aktif sejak :* `{}`
 
 pm_about_text: |
-  ✺ Hai Sayang saya *Bawihtei Robot*, bot manajemen grup yang kuat yang dibuat untuk membantu Anda mengelola grup dengan mudah. ✺
+  ✺ Hai Sayang saya *Bawihtei*, bot manajemen grup yang kuat yang dibuat untuk membantu Anda mengelola grup dengan mudah. ✺
 
   ✪ Saya dapat membatasi pengguna.
   ✪ Saya dapat menyapa pengguna dengan pesan selamat datang yang dapat disesuaikan dan bahkan menetapkan aturan grup.
@@ -86,10 +86,10 @@ add_bot_to_group_button: "♕ Tambahkan Saya Ke Grup Anda ♕"
 support_chat_link_button: "Mendukung"
 updates_channel_link_button: "Pembaruan"
 notes_button: "Catatan"
-source_button: "Kode sumber"
+source_button: "Diskusi"
 help_button: "Mendapatkan bantuan"
 back_button: "Kembali"
-about_button: "Tentang Bawihtei Robot"
+about_button: "Tentang Bawihtei"
 inline_button: "Mencoba inline!​​"
 
 # MODULES
@@ -559,7 +559,7 @@ info_and_afk_help: |
       - brb <reason>: Sama seperti perintah afk, tapi bukan perintah.
       
     *Apa itu kesehatan?*
-    Datang dan lihat [Penjelasan Sistem HP](https://t.me/KennedyProject/44)
+    Datang dan lihat [Penjelasan Sistem HP](https://t.me/BawihteiUpdates/41)
 locks_help: |
     ──「 Mengunci 」──
 
