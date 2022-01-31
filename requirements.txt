@@ -37,7 +37,7 @@ markdown2
 telethon
 telegraph
 heroku3
-spamwatch
+spamwatch==0.3.0
 alphabet_detector
 pyrate-limiter
 cachetools
