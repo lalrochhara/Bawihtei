@@ -1,7 +1,7 @@
 # Language name in their native
 language: "Indian 🇮🇳"
 # name of people(s) who worked on this translation
-authors: "@saint_foire"
+authors: "@Nickylrca"
 
 # languages
 curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
@@ -10,7 +10,7 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
   *Hey Darling, {} ❤️*
-  ✪ I'm an anime-theme management robot [✨](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
+  ✪ I'm an anime-theme management bot [✨](https://telegra.ph//file/19cf584fba04f53f84812.jpg)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
   × *Server Uptime :* `{}`
@@ -20,12 +20,12 @@ pm_start_text: |
   ✪ Hit /help to see my available commands.
    
 group_start_text: |
-  *👋🏻 Hi Darling, I'm Bawihtei Robot!*
+  *👋🏻 Hi Darling, I'm Bawihtei!*
   
   *Started active since :* `{}`
 
 pm_about_text: |
-  ✺ Hey Darling I'm *Bawihtei Robot*, a powerful group management bot built to help you manage your group easily. ✺
+  ✺ Hey Darling I'm *Bawihtei*, a powerful group management bot built to help you manage your group easily. ✺
 
   ✪ I can restrict users.
   ✪ I can greet users with customizable welcome messages and even set a group's rules.
@@ -39,7 +39,7 @@ pm_about_text: |
 pm_about_admin_text: |
   *✺ Let's make your group bit effective now ✺*
 
-  Congragulations, Bawihtei Robot now ready to manage your group.
+  Congragulations, Bawihtei now ready to manage your group.
 
   *Admin Tools*
   Basic Admin tools help you to protect and powerup your group.
@@ -78,18 +78,18 @@ pm_settings_groupss_text: |
 # Group Settings Text
 group_settings_text: "Click here to get this chat's settings, as well as yours."
 # Group Settings Button
-group_settings_button: "Settings"
+group_settings_button: "समायोजन"
 
 # PM Button
-add_bot_to_group_button: "♕ Add Me To Your Group ♕"
-support_chat_link_button: "Support"
-updates_channel_link_button: "Update"
-notes_button: "Notes"
-source_button: "Source Code"
-help_button: "Get Help"
-back_button: "Go back"
-about_button: "About Bawihtei Robot"
-inline_button: "Try inline!​​"
+add_bot_to_group_button: "♕ मुझे अपने ग्रुप में जोड़ें ♕"
+support_chat_link_button: "सहायता"
+updates_channel_link_button: "अपडेट"
+notes_button: "टिप्पणियाँ"
+source_button: "विचार - विमर्श"
+help_button: "मदद लें"
+back_button: "वापस जाओ"
+about_button: "Bawihtei . के बारे में"
+inline_button: "इनलाइन आज़माएं!​​"
 
 # MODULES
 admin_help: |
@@ -558,7 +558,7 @@ info_and_afk_help: |
       - brb <reason>: Same as the afk command, but not a command. 
       
     *What is that health thingy?*
-    Come and see [HP System explained](https://t.me/KennedyProject/44)
+    Come and see [HP System explained](https://t.me/BawihteiUpdates/41)
 locks_help: |
     ──「 Locks 」──
 
