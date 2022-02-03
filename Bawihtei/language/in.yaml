@@ -41,22 +41,22 @@ pm_about_admin_text: |
 
   बधाई हो, बाविहतेई अब आपके समूह का प्रबंधन करने के लिए तैयार है.
 
-  *Admin Tools*
-  Basic Admin tools help you to protect and powerup your group.
-  You can ban members, Kick members, Promote someone as admin through commands of bot.
+  *व्यवस्थापक उपकरण*
+  बुनियादी व्यवस्थापन उपकरण आपके समूह को सुरक्षित और सशक्त बनाने में आपकी सहायता करते हैं।
+  आप सदस्यों को प्रतिबंधित कर सकते हैं, सदस्यों को लात मार सकते हैं, बॉट के आदेशों के माध्यम से किसी को व्यवस्थापक के रूप में प्रचारित कर सकते हैं.
 
-  *Greetings*
-  Lets set a welcome message to welcome new users coming to your group.
-  Send `/setwelcome [message]` to set a welcome message!
+  *अभिवादन*
+  आइए आपके समूह में आने वाले नए उपयोगकर्ताओं के स्वागत के लिए एक स्वागत संदेश सेट करें.
+  भेजना `/setwelcome [संदेश]` एक स्वागत संदेश सेट करने के लिए!
 pm_about_notes_text: |
-  *✺ Setting up notes ✺*
+  *✺ नोट्स सेट करना ✺*
 
-  ✪ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
-  ✪ You can also set buttons for notes and filters (refer help menu)
+  ✪ नोट प्राप्त करने के लिए आप संदेश/मीडिया/ऑडियो या कुछ भी नोट्स के रूप में सहेज सकते हैं बस किसी शब्द की शुरुआत में # का उपयोग करें
+  ✪ आप नोट्स और फ़िल्टर के लिए बटन भी सेट कर सकते हैं (सहायता मेनू देखें)
 pm_about_support_text: |
-  *✺ Bawihtei Robot support chats ✺*
+  *✺ Bawihtei चैट का समर्थन करें ✺*
 
-  Join My Support Group/Channel for see or report a problem on Bawihtei.
+   Bawihtei पर एक समस्या देखने या रिपोर्ट करने के लिए मेरे सहायता समूह/चैनल से जुड़ें.
 pm_about_credit_text: |
   *✺ Bawihtei . के लिए क्रेडिट ✺*
 
@@ -66,17 +66,17 @@ pm_help_text: |
 
 # Group Help Text
 group_help_text: "संभावित आदेशों की सूची प्राप्त करने के लिए मुझसे पीएम में संपर्क करें."
-group_help_modules_text: "Contact me in PM to get help of *{}*"
+group_help_modules_text: "*{}* की सहायता प्राप्त करने के लिए मुझसे PM में संपर्क करें"
 # Group Help Button
 group_help_button: "मदद"
 # PM Settings
-pm_settings_personal_text: "These are your current settings: "
-pm_settings_group_text: "Which module would you like to check {}'s settings for?"
-pm_settings_groups_text: "*{}* has the following settings for the *{}* module:\n\n"
+pm_settings_personal_text: "ये आपकी वर्तमान सेटिंग हैं: "
+pm_settings_group_text: "आप किस मॉड्यूल के लिए {} की सेटिंग जांचना चाहेंगे?"
+pm_settings_groups_text: "*{}* में *{}* मॉड्यूल के लिए निम्नलिखित सेटिंग्स हैं:\n\n"
 pm_settings_groupss_text: |
-    Hi there! There are quite a few settings for {} - go ahead and pick what you're interested in.
+    नमस्ते! {} के लिए काफी कुछ सेटिंग्स हैं - आगे बढ़ें और अपनी रुचि के अनुसार चुनें.
 # Group Settings Text
-group_settings_text: "Click here to get this chat's settings, as well as yours."
+group_settings_text: "इस चैट की सेटिंग और साथ ही अपनी सेटिंग प्राप्त करने के लिए यहां क्लिक करें."
 # Group Settings Button
 group_settings_button: "समायोजन"
 
@@ -93,13 +93,13 @@ inline_button: "इनलाइन आज़माएं!​​"
 
 # MODULES
 admin_help: |
-    ──「 Admins 」──
+    ──「 व्यवस्थापक 」──
 
-    *User Commands*:
-    ❂ /admins*:* list of admins in the chat
-    ❂ /pinned*:* to get the current pinned message.
+    *उपयोगकर्ता आदेश*:
+    ❂ /admins*:* चैट में व्यवस्थापकों की सूची
+    ❂ /pinned*:* वर्तमान पिन किया हुआ संदेश प्राप्त करने के लिए.
 
-    *The Following Commands are Admins only:* 
+    *निम्नलिखित आदेश केवल व्यवस्थापक हैं:* 
     ❂ /pin*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users
     ❂ /unpin*:* unpins the currently pinned message
     ❂ /invitelink*:* gets invitelink
@@ -810,18 +810,18 @@ demote_button: "Demote"
 pin_button: "👉 Go to message"
 
 # Afk.py Variabel
-reason_len: "\nYour afk reason was shortened to 100 characters."
+reason_len: "\nआपके afk कारण को 100 वर्णों तक छोटा कर दिया गया था."
 afk: "{} is now away! {}"
-afk_array1: "{} is here!"
-afk_array2: "{} is back!"
-afk_array3: "{} is now in the chat!"
-afk_array4: "{} is awake!"
-afk_array5: "{} is back online!"
-afk_array6: "{} is finally here!"
-afk_array7: "Welcome back! {}"
-afk_array8: "Where is {}?\nIn the chat!"
-afk_check: "{} is afk"
-afk_check_reason: "{} is afk.\nReason: <code>{}</code>"
+afk_array1: "{} यहाँ है!"
+afk_array2: "{} वापस आ गया है!"
+afk_array3: "{} अब चैट में है!"
+afk_array4: "{} जगा हुआ!"
+afk_array5: "{} वापस ऑनलाइन है!"
+afk_array6: "{} अंत में यहाँ है!"
+afk_array7: "वापसी पर स्वागत है! {}"
+afk_array8: "कहां है {}?\nचाट में!"
+afk_check: "{} afk . है"
+afk_check_reason: "{} afk . है.\nकारण: <code>{}</code>"
 
 # Antichannel.py Variabel
 active_antichannel: "Enabled antichannel in {}"
