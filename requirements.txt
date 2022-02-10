@@ -34,7 +34,7 @@ regex
 bleach
 wikipedia
 markdown2
-telethon
+telethon==1.24.0
 telegraph
 heroku3
 spamwatch==0.3.0
@@ -45,7 +45,7 @@ ujson
 pretty_errors
 pygithub
 TgCrypto
-pyrogram==1.4.2
+pyrogram==1.4.6
 PyDictionary
 git+https://github.com/Sorrybabe/downloader
 youtube_search_python==1.6.2
