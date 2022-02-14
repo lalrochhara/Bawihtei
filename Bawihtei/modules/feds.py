@@ -1417,10 +1417,10 @@ def fed_ban_list(update: Update, context: CallbackContext):
                 backups += json.dumps(json_parser)
                 backups += "\n"
             with BytesIO(str.encode(backups)) as output:
-                output.name = "saitama_fbanned_users.json"
+                output.name = "Bawihtei_fbanned_users.json"
                 update.effective_message.reply_document(
                     document=output,
-                    filename="saitama_fbanned_users.json",
+                    filename="Bawihtei_fbanned_users.json",
                     caption="Total {} User are blocked by the Federation {}.".format(
                         len(getfban),
                         info["fname"],
