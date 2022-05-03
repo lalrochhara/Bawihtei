@@ -83,11 +83,11 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-Bawihtei_IMG = "https://telegra.ph//file/19cf584fba04f53f84812.jpg"
+BAWIHTEI_IMG = "https://telegra.ph//file/19cf584fba04f53f84812.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @Nickylrca \
- Supporting isn't always financial! \
+ Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -172,19 +172,11 @@ def start(update: Update, context: CallbackContext):
                 )
             elif args[0].lower().startswith("ghelp_"):
                 mod = args[0].lower().split("_", 1)[1]
-                
-                help_list = HELPABLE[mod].helps(update.effective_chat.id)
-                if isinstance(help_list, list):
-                    help_text = help_list[0]
-                elif isinstance(help_list, str):
-                    help_text = help_list
-
                 if not HELPABLE.get(mod, False):
                     return
-                    
                 send_help(
                     update.effective_chat.id,
-                    HELPABLE[mod].__mod_name__ + help_text,
+                    HELPABLE[mod].helps,
                     InlineKeyboardMarkup(
                         [
                             [
@@ -382,7 +374,7 @@ def help_button(update, context):
 def Bawihtei_about_callback(update, context):
     query = update.callback_query
     chat = update.effective_chat
-    if query.data == "Bawihtei_":
+    if query.data == "siesta_":
         query.message.edit_text(
             text=gs(chat.id, "pm_about_text"),
             parse_mode=ParseMode.MARKDOWN,
@@ -390,7 +382,7 @@ def Bawihtei_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Admins", callback_data="Bawihtei_admin"),
+                        InlineKeyboardButton(text="Admins", callback_data="siesta_admin"),
                         InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="Bawihtei_notes"),
                     ],
                     [
@@ -398,7 +390,7 @@ def Bawihtei_about_callback(update, context):
                         InlineKeyboardButton(text="Credits", callback_data="Bawihtei_credit"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://t.me/mzbotstalk"),
+                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://t.me/BawihteiUpdates/26"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="Bawihtei_back"),
@@ -448,7 +440,7 @@ def Bawihtei_about_callback(update, context):
             ),
         )
 
-    elif query.data == "Bawihtei_notes":
+    elif query.data == "siesta_notes":
         query.message.edit_text(
             text=gs(chat.id, "pm_about_notes_text"),
             parse_mode=ParseMode.MARKDOWN,
@@ -467,7 +459,7 @@ def Bawihtei_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/BawihteiSupports"),
+                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="https://t.me/BawihteiSupports"),
                         InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/BawihteiUpdates"),
                     ],
                     [
@@ -485,7 +477,7 @@ def Bawihtei_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Sangtei", url="https://github.com/lalrochhara/Sangtei"),
+                        InlineKeyboardButton(text="Nicky", url="https://github.com/lalrochhara"),
                     ],
                     [
                         InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
@@ -609,7 +601,7 @@ def get_help(update: Update, context: CallbackContext):
         )
 
     else:
-        send_help(chat.id, "pm_help_text")
+        send_help(chat.id, (gs(chat.id, "pm_help_text")))
 
 
 def send_settings(chat_id, user_id, user=False):
@@ -848,7 +840,7 @@ def main():
     )
 
     about_callback_handler = CallbackQueryHandler(
-        Bawihtei_about_callback, pattern=r"Bawihtei_", run_async=True
+        Bawihtei_about_callback, pattern=r"siesta_", run_async=True
     )
 
     source_callback_handler = CallbackQueryHandler(
