@@ -109,8 +109,8 @@ async def upvote(_, message):
     & filters.reply
     & filters.regex(regex_downvote)
     & ~filters.via_bot
-    & ~filters.bot
-    & ~filters.edited,
+    & ~filters.bot,
+
     group=karma_negative_group,
 )
 @capture_err
