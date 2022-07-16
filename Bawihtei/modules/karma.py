@@ -72,7 +72,7 @@ async def upvote(_, message):
     & filters.reply
     & filters.regex(regex_upvote)
     & ~filters.via_bot
-    & ~filters.bot
+    & ~filters.bot,
 
     group=karma_positive_group,
 )
