@@ -336,7 +336,7 @@ async def inuka(client, message):
         return
 
 
-@pbot.on_message(filters.regex("Bawihtei|Bawihtei|robot|Bawihtei|Nicky") & ~filters.bot & ~filters.via_bot  & ~filters.forwarded & ~filters.reply & ~filters.channel & ~filters.edited)
+@pbot.on_message(filters.regex("Bawihtei|Bawihtei|robot|Bawihtei|Nicky") & ~filters.bot & ~filters.via_bot  & ~filters.forwarded & ~filters.reply & ~filters.channel)
 async def inuka(client, message):
     msg = message.text
     if msg.startswith("/") or msg.startswith("@"):
@@ -388,7 +388,7 @@ async def inuka(client, message):
     test = test.replace("Bawihtei", "Aco")
     test = test.replace("My god is @Nickylrca", "I'm a Christian")
     test = test.replace("16", "9") 
-    test = test.replace("@saint_foire is my husband.", "I'm single.")
+    test = test.replace("@Nickylrca is my husband.", "I'm single.")
     test = test.replace("@Bawihteiupports", "Bawihteibot.ai")
     test = test.replace("You can find me on @BawihteiSupports.", "I live in Aizawl, Mizoram.")
     test = test.replace("I was created by @Nickylrca", "I made myself")
