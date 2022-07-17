@@ -40,8 +40,8 @@ async def couple(_, message):
         is_selected = await get_couple(chat_id, today)
         if not is_selected:
             list_of_users = []
-            async for i in app.iter_chat_members(message.chat.id):
-                if not i.user.is_bot:
+            async for members in app.get_chat_members(message.chat.id):
+                if not memebers.user.is_bot:
                     list_of_users.append(i.user.id)
             if len(list_of_users) < 2:
                 await message.reply_text("Not enough users")
