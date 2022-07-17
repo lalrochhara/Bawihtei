@@ -42,7 +42,7 @@ async def couple(_, message):
             list_of_users = []
             async for members in app.get_chat_members(message.chat.id):
                 if not members.user.is_bot:
-                    list_of_users.append(i.user.id)
+                    list_of_users.append(members.user.id)
             if len(list_of_users) < 2:
                 await message.reply_text("Not enough users")
                 return
