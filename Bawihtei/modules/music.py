@@ -152,7 +152,7 @@ async def ytmusic(client, message: Message):
             pablo,
             c_time,
             f"`Uploading {urlissed} Song From YouTube Music!`",
-            file_stark,
+            video,
         ),
     )
     await pablo.delete()
