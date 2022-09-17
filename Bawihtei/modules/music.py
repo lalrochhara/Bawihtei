@@ -124,7 +124,7 @@ async def ytmusic(client, message: Message):
         "quiet": True,
     }
     try:
-        with YoutubeDL(ydl_opts) as ydl:
+        with YoutubeDL(opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             video = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
