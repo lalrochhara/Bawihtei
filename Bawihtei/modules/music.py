@@ -124,28 +124,24 @@ async def ytmusic(client, message: Message):
         "quiet": True,
     }
     try:
-        with YoutubeDL(opts) as ytdl:
-            infoo = ytdl.extract_info(url, download=False)
-            duration = round(infoo["duration"] / 60)
-            LIMIT = "180"          
- 
-            if duration > LIMIT:
-                await pablo.edit(
-                    f"❌ **durasinya kelamaan gabisa tot:v**"
-                )
-                is_downloading = False
-                return
-            ytdl_data = ytdl.extract_info(url, download=True)
+        with YoutubeDL(ydl_opts) as ydl:
+            info_dict = ydl.extract_info(link, download=False)
+            video = ydl.prepare_filename(info_dict)
+            ydl.process_info(info_dict)
+        secmul, dur, dur_arr = 1, 0, duration.split(':')
+        for i in range(len(dur_arr)-1, -1, -1):
+            dur += (int(dur_arr[i]) * secmul)
+            secmul *= 60
 
     except Exception as e:
         await pablo.edit(f"**Failed To Download** \n**Error :** `{str(e)}`")
         return
     c_time = time.time()
-    file_stark = f"{ytdl_data['id']}.mp4"
+    #file_stark = f"{ytdl_data['id']}.mp4"
     capy = f"**Video Name ➠** [{thum}]({mo}) \n**Requested For :** `{urlissed}` \n**Channel :** `{thums}` "
     await client.send_video(
         message.chat.id,
-        video=open(file_stark, "rb"),
+        video=video,
         duration=int(ytdl_data["duration"]),
         file_name=str(ytdl_data["title"]),
         thumb=sedlyf,
