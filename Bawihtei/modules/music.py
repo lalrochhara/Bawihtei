@@ -142,8 +142,7 @@ async def ytmusic(client, message: Message):
     await client.send_video(
         message.chat.id,
         video=video,
-        duration=int(ytdl_data["duration"]),
-        file_name=str(ytdl_data["title"]),
+        duration=dur,
         thumb=sedlyf,
         caption=capy,
         supports_streaming=True,
@@ -155,10 +154,8 @@ async def ytmusic(client, message: Message):
             video,
         ),
     )
-    await pablo.delete()
-    for files in (sedlyf, file_stark):
-        if files and os.path.exists(files):
-            os.remove(files)
+    os.remove(video)
+    os.remove(sedlyf)
 
 
 @pbot.on_message(filters.command(["music", "song"]))
