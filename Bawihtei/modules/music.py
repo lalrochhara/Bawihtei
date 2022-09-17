@@ -119,7 +119,7 @@ async def ytmusic(client, message: Message):
         "geo_bypass": True,
         "nocheckcertificate": True,
         "postprocessors": [{"key": "FFmpegVideoConvertor", "preferedformat": "mp4"}],
-        "outtmpl": "%(id)s.mp4",
+        "outtmpl": "%(id)s.mp3",
         "logtostderr": False,
         "quiet": True,
     }
@@ -141,7 +141,7 @@ async def ytmusic(client, message: Message):
         await pablo.edit(f"**Failed To Download** \n**Error :** `{str(e)}`")
         return
     c_time = time.time()
-    file_stark = f"{ytdl_data['id']}.mp4"
+    file_stark = f"{ytdl_data['id']}.mp3"
     capy = f"**Video Name ➠** [{thum}]({mo}) \n**Requested For :** `{urlissed}` \n**Channel :** `{thums}` "
     await client.send_video(
         message.chat.id,
