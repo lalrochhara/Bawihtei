@@ -125,7 +125,7 @@ async def ytmusic(client, message: Message):
     }
     try:
         with YoutubeDL(opts) as ydl:
-            info_dict = ydl.extract_info(link, download=False)
+            info_dict = ydl.extract_info(url, download=False)
             video = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
         secmul, dur, dur_arr = 1, 0, duration.split(':')
