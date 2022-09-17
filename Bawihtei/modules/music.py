@@ -119,13 +119,13 @@ async def ytmusic(client, message: Message):
         "geo_bypass": True,
         "nocheckcertificate": True,
         "postprocessors": [{"key": "FFmpegVideoConvertor", "preferedformat": "mp4"}],
-        "outtmpl": "%(id)s.mp3",
+        "outtmpl": "%(id)s.mp4",
         "logtostderr": False,
         "quiet": True,
     }
     try:
         with YoutubeDL(opts) as ytdl:
-            infoo = ytdl.extract_info(url, False)
+            infoo = ytdl.extract_info(url, download=False)
             duration = round(infoo["duration"] / 60)
             LIMIT = "180"          
  
@@ -141,7 +141,7 @@ async def ytmusic(client, message: Message):
         await pablo.edit(f"**Failed To Download** \n**Error :** `{str(e)}`")
         return
     c_time = time.time()
-    file_stark = f"{ytdl_data['id']}.mp3"
+    file_stark = f"{ytdl_data['id']}.mp4"
     capy = f"**Video Name ➠** [{thum}]({mo}) \n**Requested For :** `{urlissed}` \n**Channel :** `{thums}` "
     await client.send_video(
         message.chat.id,
